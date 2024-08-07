@@ -1,0 +1,174 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Header styling */
+  .tm-header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .tm-logo {
+    height: 50px;
+  }
+  
+  .tm-nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .tm-nav li {
+    margin: 0 10px;
+  }
+  
+  .tm-nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Main section styling */
+  .tm-main {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .tm-main p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Booking section styling */
+  .tm-booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .tm-form1 {
+    flex-basis: 50%;
+  }
+  
+  .tm-form1 input,
+  .tm-form1 select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .tm-form1 label {
+    font-weight: bold;
+  }
+  
+  .tm-num1,
+  .tm-num2 {
+    margin: 10px;
+    flex-basis: 10%;
+    text-align: center;
+  }
+  
+  .tm-num1 label,
+  .tm-num2 label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .tm-num1 button,
+  .tm-num2 button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .tm-num1 input,
+  .tm-num2 input {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .vertical-line {
+    height: 100px;
+    border-left: 2px solid #ccc;
+    margin: 0 30px;
+  }
+  
+  .tm-form2 {
+    flex-basis: 30%;
+  }
+  
+  .tm-cl {
+    padding: 10px;
+  }
+  
+  .tm-cl label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .tm-cl input[type="datetime"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  .tm-resbutton a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Footer styling */
+  .tm-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    height: 202px;
+  }
+  
+  .tm-us p, .tm-address p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .tm-media img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+  }
+  

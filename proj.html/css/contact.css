@@ -1,0 +1,149 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* Header styling */
+  .tm-header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .tm-logo {
+    height: 50px;
+  }
+  
+  .tm-nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .tm-nav li {
+    margin: 0 10px;
+  }
+  
+  .tm-nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Main section styling */
+  .tm-main {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .tm-main p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Contact section styling */
+  .tm-booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .tm-form1 {
+    flex-basis: 50%;
+  }
+  
+  .tm-form1 input,
+  .tm-form1 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .tm-form1 textarea {
+    resize: vertical;
+  }
+  
+  .tm-form1 input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .vertical-line {
+    height: 210px;
+    border-left: 2px solid #ccc;
+    margin: 0 30px;
+  }
+  
+  .tm-form2 {
+    flex-basis: 30%;
+  }
+  
+  .tm-cl {
+    padding: 10px;
+  }
+  
+  .tm-cl .here {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .tm-cl img#place {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styling */
+
+  .tm-footer {
+    margin-top: auto;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .tm-footer .tm-us,
+  .tm-footer .tm-address,
+  .tm-footer .tm-media {
+    text-align: center;
+  }
+  
+  .tm-footer p {
+    margin: 5px 0;
+  }
+  
+  .tm-footer .bold {
+    font-weight: bold;
+  }
+  
+  .tm-footer img {
+    width: 30px;
+    margin: 5px;
+  }

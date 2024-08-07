@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Harmony heights</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            font-family: sans-serif;
+        }
+        /* Header styling */
+        .tm-header {
+            background-color: #222;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .tm-logo {
+            width: 150px;
+            height: auto;
+        }
+        
+        .tm-nav ul {
+            list-style: none;
+            margin-left: 582px;
+        }
+        
+        .tm-nav li {
+            display: inline-block;
+            margin-left: 10px;
+        }
+        
+        .tm-nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .loginbox {
+            width: 350px;
+            height: 450px;
+            background: black;
+            color: white;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            padding: 20px 30px;
+            border-radius: 20px;
+            margin-top: 200px;
+            margin-left: -300px;
+
+        }
+
+        .signupbox {
+            width: 350px;
+            height: 450px;
+            background: black;
+            color: white;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            padding: 20px 30px;
+            border-radius: 20px;
+            margin-top: 200px;
+            margin-left: 300px;
+            
+        }
+        
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 25%;
+            position: absolute;
+            top: -75px;
+            left: 29%
+        }
+        
+        h1 {
+            margin: 0;
+            padding: 0 0 20 px;
+            text-align: center;
+            font-size: 22px;
+        }
+        
+        .form .loginbox{
+		    display: flex;
+		    flex-direction: column;
+	    }
+        .loginbox p {
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+        }
+        
+        .loginbox input {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .loginbox input[type="text"],
+        input[type="password"] {
+            border: none;
+            border-bottom: 1px solid white;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: white;
+            font-size: 18px;
+        }
+        
+        .loginbox input[type="submit"] {
+            border: none;
+            outline: none;
+            height: 40px;
+            background: red;
+            color: white;
+            font-size: 18px;
+            border-radius: 20px;
+        }
+        
+        .loginbox input[type="submit"]:hover {
+            cursor: pointer;
+            background: #ffc107;
+            color: #000;
+        }
+        
+        .loginbox a {
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 20px;
+            color: darkgrey;
+        }
+        
+        .loginbox a:hover {
+            color: #ffc107;
+        }
+
+        .loginbox p {
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+        }
+        
+        .loginbox input {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .signupbox input[type="text"],
+        input[type="password"] {
+            border: none;
+            border-bottom: 1px solid white;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: white;
+            font-size: 18px;
+        }
+        
+        .signupbox input[type="submit"] {
+            border: none;
+            outline: none;
+            height: 40px;
+            width: 300px;
+            background: red;
+            color: white;
+            font-size: 18px;
+            border-radius: 20px;
+        }
+        
+        .signupbox input[type="submit"]:hover {
+            cursor: pointer;
+            background: #ffc107;
+            color: #000;
+        }
+        
+        .signupbox a {
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 20px;
+            color: darkgrey;
+        }
+        
+        .signupbox a:hover {
+            color: #ffc107;
+        }
+        /* Footer styling */
+        .tm-footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: -5px;
+        }
+        
+        .tm-us p, .tm-address p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        
+        .tm-media img {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+        }
+    </style>
+
+    <body>
+        <section>
+        <div class="tm-header">
+            <header class="tm-header">
+                <img class="tm-logo" src="images/Harmony heights.png" alt="Harmony heights">
+                <nav class="tm-nav">
+                <div style="margin-right: 20px;">
+                    <ul>
+                        <li class="tm-list"><a href="newlogin.html">Signup/login</a></li>
+                        <li class="tm-list"><a href="index.html">Home</a></li>
+                        <li class="tm-list"><a href="explore.html">Explore</a></li>
+                        <li class="tm-list"><a href="rooms.html">Rooms</a></li>
+                        <li class="tm-list"><a href="bb.html">Booking</a></li>
+                        <li class="tm-list"><a href="contact.html">Contact</a></li>
+                    </ul>    
+                </div>
+                </nav>
+            </header>
+        </section>
+        <img src="images/lobby.jpg" width="100%" height="50%">
+            <div>
+                <form class="loginbox">
+                    <h1 style="text-align: center;">Login</h1><br><br>
+                    <p>Username</p>
+                    <input type="text" name= "" placeholder="Enter Username" required>
+                    <p>Password</p>
+                    <input type="Password" name="" placeholder="Enter Password" required>
+                    <input type="submit" name="" value="Login"><br>
+                    <a href="#">Forget your Password?</a><br>
+                    <a href="JS Exercise File\Registration page\Registration.html">Don't have account?</a>
+                </form>
+            </div>
+                <div >
+                    <form class="signupbox">
+                    <h1 style="text-align: center;">Sign Up</h1><br>
+                    <p>Username</p>
+                    <input type="text" name= "" placeholder="Enter Username" required>
+                    <p>Email ID</p>
+                    <input type="text" name= "" placeholder="Enter E-Mail ID" required>
+                    <p>Password</p>
+                    <input type="Password" name="" placeholder="Enter Password" required><br><br>
+                    <input type="submit" name="" value="Login">
+                    <br>
+
+                </form>
+            
+        </div>
+        <footer class="tm-footer">
+            <div class="tm-us">
+                <p class="bold">About Us</p>
+                <p>We are a part of chain of luxury hotels 
+                    which extends all over the world. We 
+                    provide a luxorious stay with various value
+                    added and free services which will make
+                    you visit us over and over again.</p>    
+            </div>
+           
+            <div class="tm-address">
+                <p class="bold">Address</p>
+                <p>415, Park Avenu, Hawai
+                    Phone : (211) 9275693451
+                    Email : majestic@info.com</p>    
+            </div>
+            <br/>
+            <div class="tm-media">
+                <a href="#"> <img src="images/fb.png"></a>
+                <a href="#"> <img src="images/G.png"> </a>
+                <a href="#"> <img src="images/twittr.png"> </a>
+                <a href="#">  <img src="images/insta.png"> </a>
+            
+            </div>
+        </footer>
+    
+    </body>
+</head>
+
+</html>

@@ -1,0 +1,714 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.tm-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.tm-logo {
+    width: 150px;
+}
+
+.tm-nav {
+    max-width: 90%;
+    border: 2px solid #3a382e;
+    display: block;
+    margin: 30px auto 5px auto;
+    background-color: rgba(48, 34, 34, 0.122);
+}
+
+.tm-list {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.tm-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tm-main {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f2f2f2;
+}
+
+.tm-expsection {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.tm-exp1, .tm-exp2 {
+    margin-bottom: 30px;
+}
+
+.tm-exp1 p, .tm-exp2 p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tm-makeres {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.tm-resbutton a {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+.tm-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.tm-us, .tm-address {
+    display: inline-block;
+    margin: 10px;
+}
+
+.tm-media img {
+    width: 30px;
+    margin: 5px;
+}
+
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a default font family and size */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Header styles */
+.tm-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.tm-logo {
+    width: 150px;
+}
+
+.tm-nav {
+    margin-top: 20px;
+}
+
+.tm-list {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.tm-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+.tm-main {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f2f2f2;
+}
+
+/* Image slider styles */
+.tm-imgslider {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+}
+
+.tm-slider {
+    position: relative;
+    text-align: center;
+}
+
+.tm-sliderimage {
+    width: 100%;
+    height: auto;
+}
+
+.tm-slidertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+/* Room section styles */
+.slider.room {
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.tm-rooms {
+    text-align: center;
+}
+
+.tm-rooms img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.tm-rooms p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Service section styles */
+.tm-servicesection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.tm-service {
+    text-align: center;
+    margin: 20px;
+}
+
+.tm-serimage {
+    width: 100px;
+    height: auto;
+}
+
+.tm-service p {
+    font-size: 18px;
+}
+
+/* Review section styles */
+.slider.review {
+    justify-content: center;
+}
+
+.tm-review {
+    text-align: center;
+}
+
+.tm-revcon {
+    display: inline-block;
+    margin: 20px;
+}
+
+.tm-revcon p.b {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tm-stars {
+    margin: 10px;
+}
+
+.tm-stars img {
+    width: 20px;
+    height: 20px;
+}
+
+.tm-rev {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Reservation button styles */
+.tm-makeres {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.tm-resbutton a {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+.tm-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.tm-us, .tm-address {
+    display: inline-block;
+    margin: 10px;
+}
+
+.tm-media img {
+    width: 30px;
+    margin: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .tm-list {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .slider {
+        flex-direction: column;
+    }
+}
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a default font family and size */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Header styles */
+.tm-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.tm-logo {
+    width: 150px;
+}
+
+.tm-nav {
+    margin-top: 20px;
+}
+
+.tm-list {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.tm-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+.tm-main {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f2f2f2;
+}
+
+/* Booking section styles */
+.tm-booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.tm-form1 input, .tm-form1 textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tm-form1 input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.vertical-line {
+    height: 200px;
+    width: 1px;
+    background-color: #ccc;
+    margin: 0 20px;
+}
+
+.tm-form2 {
+    text-align: center;
+}
+
+#map {
+    height: 200px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#place {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+.tm-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.tm-us, .tm-address {
+    display: inline-block;
+    margin: 10px;
+}
+
+.tm-media img {
+    width: 30px;
+    margin: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .tm-list {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .tm-booking {
+        flex-direction: column;
+    }
+    form {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .vertical-line {
+        display: none;
+    }
+}
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a default font family and size */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Header styles */
+.tm-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.tm-logo {
+    width: 150px;
+}
+
+.tm-nav {
+    margin-top: 20px;
+}
+
+.tm-list {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.tm-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+.tm-main {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f2f2f2;
+}
+
+/* Room section styles */
+.tm-roomsection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.tm-room1 {
+    width: 300px;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.tm-room1 img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tm-trans {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tm-room1 p {
+    margin: 5px;
+}
+
+.tm-room1 .s {
+    margin: 5px;
+    font-weight: bold;
+}
+
+/* Reservation button section styles */
+.tm-makeres {
+    text-align: center;
+}
+
+.tm-res {
+    display: inline-block;
+    margin: 20px;
+}
+
+.tm-resbutton a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+.tm-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.tm-us, .tm-address {
+    display: inline-block;
+    margin: 10px;
+}
+
+.tm-media img {
+    width: 30px;
+    margin: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .tm-list {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .tm-room1 {
+        width: 90%;
+        margin: 15px 0;
+    }
+}
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a default font family and size */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Header styles */
+.tm-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.tm-logo {
+    width: 150px;
+}
+
+.tm-nav {
+    margin-top: 20px;
+}
+
+.tm-list {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.tm-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+.tm-main {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f2f2f2;
+}
+
+/* Booking section styles */
+.tm-booking {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.tm-form1 {
+    width: 300px;
+    margin-right: 15px;
+}
+
+.tm-form1 input[type="text"],
+.tm-form1 input[type="email"],
+.tm-form1 select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.tm-form1 label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.tm-form1 .tm-num1,
+.tm-form1 .tm-num2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tm-form1 .tm-num1 input[type="text"],
+.tm-form1 .tm-num2 input[type="text"] {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.vertical-line {
+    border-left: 1px solid #ccc;
+    height: 200px;
+    margin: 0 30px;
+}
+
+.tm-form2 {
+    width: 300px;
+    margin-left: 15px;
+}
+
+.tm-cl {
+    margin-top: 20px;
+}
+
+.tm-form2 label.arrival {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.tm-form2 .range {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tm-form2 input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+.tm-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.tm-us, .tm-address {
+    display: inline-block;
+    margin: 10px;
+}
+
+.tm-media img {
+    width: 30px;
+    margin: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .tm-booking {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tm-form1, .tm-form2 {
+        margin: 15px 0;
+    }
+    .vertical-line {
+        border-left: none;
+        border-top: 1px solid #ccc;
+        height: 1px;
+        width: 100%;
+        margin: 20px 0;
+    }
+}

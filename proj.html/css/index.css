@@ -1,0 +1,185 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    
+  }
+  
+  /* Header styles */
+  .tm-header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tm-logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .tm-nav ul {
+    list-style: none;
+  }
+  
+  .tm-nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .tm-nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+/* gif image */
+.giphy_embed{
+  width: 100%;
+  width: 1000px;
+}
+
+.main-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 4vw; 
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.main-overlay p {
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 2vw; 
+}
+
+video {
+  width: 100%;
+  filter: brightness(65%);
+  height: auto;
+  display: block;
+}
+
+
+.room{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tm-rooms{
+  margin: 100px;
+  box-shadow: 4px 4px 5px 5px #0c2a2c;
+}
+
+.tm-rooms a{
+  text-decoration: none;
+  text-align: center;
+  color: #7449ff;
+  font-size: 20px;
+}
+
+.tm-rooms:hover{
+  transform: scale(1.025);
+}
+  
+  
+  
+  /* Services section styles */
+  .tm-servicesection {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .tm-service {
+    text-align: center;
+    width: 200px;
+  }
+  
+  .tm-service p {
+    margin: 5px;  
+  }
+  
+  .tm-serimage {
+    width: 50px;
+    height: auto;
+  }
+  
+  /* Review section styles */
+  .slider.review {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+  }
+  
+  .tm-revcon {
+    flex: 0 0 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .tm-stars img {
+    width: 15px;
+    height: 15px;
+  }
+  
+  /* Make reservation section styles */
+  .tm-makeres {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .tm-resbutton a {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .tm-resbutton a:hover {
+    background-color: #444;
+  }
+  
+  /* Footer styles */
+  .tm-footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .tm-us,
+  .tm-address {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .tm-media img {
+    width: 25px;
+    height: auto;
+    margin: 5px;
+  }
+  

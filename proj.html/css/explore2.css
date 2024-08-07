@@ -1,0 +1,134 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Header styling */
+  .tm-header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .tm-logo {
+    height: 50px;
+  }
+  
+  .tm-nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .tm-nav li {
+    margin: 0 10px;
+  }
+  
+  .tm-nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+    /* Main section styling */
+/* CSS for the main section */
+/* CSS for the main section */
+.tm-main {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  /* CSS for the grid */
+  .tm-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(2, 1fr); /* Two rows */
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  /* CSS for the slider section */
+  .tm-slider {
+    position: relative;
+  }
+  
+  /* CSS for the slider image */
+  .tm-sliderimage {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* CSS for the slider text */
+  .tm-slidertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Apply the hover effect on the .tm-slider container */
+  .tm-slider:hover .tm-sliderimage {
+    transform: scale(1.1);
+  }
+  
+  .tm-slider:hover .tm-slidertext {
+    opacity: 1;
+  }
+  
+  
+  
+
+  /* Make reservation section styling */
+  .tm-makeres {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .tm-resbutton a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  /* Footer styling */
+  .tm-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .tm-us p, .tm-address p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .tm-media img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+  }
+  

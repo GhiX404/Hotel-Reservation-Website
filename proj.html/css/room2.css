@@ -1,0 +1,121 @@
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+
+.tm-header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+.tm-logo {
+    height: 50px;
+  }
+
+  .tm-nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .tm-nav li {
+    margin: 0 10px;
+  }
+  
+  .tm-nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .tm-main {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .tm-main p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+   /* Define the grid container style */
+   .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    height: 300px; /* Set the height of the grid container */
+  }
+  
+  /* Define the grid item style (optional, just for some visual styling) */
+  .grid-item {
+    display: flex;
+    background-color: #f2f2f2;
+    width: 50vw;
+  }
+
+  .tm-room1 {
+    width: 500px;
+    border-radius: 10px;
+    margin:0px;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+  }
+  
+.img1{
+    width: 50vw;
+}
+
+.img1:hover{
+    transform: scale(1.025);
+    transition: transform 0.3s, filter 0.3s;
+    filter: brightness(1.2);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .imgp1 {
+    position: absolute;
+    bottom: -5px;
+    left: 20px;
+    color: white;
+    font-family: Tahoma, sans-serif;
+  }
+  .imgp2 {
+    position: absolute;
+    bottom: 1px;
+    right: 490px;
+    color: white;
+    font-family: Tahoma, sans-serif;
+  }
+  .imgp3 {
+    position: absolute;
+    bottom: -500px;
+    left: 20px;
+    color: white;
+    font-family: Tahoma, sans-serif;
+  }
+
+  .imgp4 {
+    position: absolute;
+    bottom: -500px;
+    right: 500px;
+    color: white;
+    font-family: Tahoma, sans-serif;
+  }
+
+  
